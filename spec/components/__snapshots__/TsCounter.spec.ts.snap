@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/tsCounter.vue 初期表示 snapshot 1`] = `
+<div
+  class="ts-counter"
+>
+  <button>
+    -
+  </button>
+   2 
+  <button>
+    +
+  </button>
+</div>
+`;
