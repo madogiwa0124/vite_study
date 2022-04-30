@@ -1,4 +1,23 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Vitest Snapshot v1
+
+exports[`components/jsCounter.vue > 初期表示 > snapshot 1`] = `
+<div
+  class="js-counter"
+  data-v-265e7edc=""
+>
+  <button
+    data-v-265e7edc=""
+  >
+    -
+  </button>
+   2 
+  <button
+    data-v-265e7edc=""
+  >
+    +
+  </button>
+</div>
+`;
 
 exports[`components/jsCounter.vue 初期表示 snapshot 1`] = `
 <div

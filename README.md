@@ -6,4 +6,4 @@ This is a repository for vite + orhers studies.
 
 - [x] build typescript + vue3
 - [x] stylelint, eslint, jest, prettier
-- [ ] vitest
+- [x] vitest

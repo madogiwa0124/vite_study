@@ -1,0 +1,14 @@
+// Vitest Snapshot v1
+
+exports[`components/topImage.vue > 初期表示 > snapshot 1`] = `
+<div
+  class="top-image"
+>
+  <img
+    alt="test alt"
+    height="350"
+    src="/src/images/noimage.png"
+    width="350"
+  />
+</div>
+`;
