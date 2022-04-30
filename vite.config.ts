@@ -2,7 +2,7 @@ import { defineConfig } from "vite";
 import vue from "@vitejs/plugin-vue";
 import legacy from "@vitejs/plugin-legacy";
 
-const getEntries = require("./config/vite/util/getEntries");
+import getEntries from "./config/vite/util/getEntries";
 const JAVASCRIPT_ENTRY_PATH = "./src/javascripts/entries/";
 const HTML_ENTRY_PATH = "./src/";
 
@@ -19,6 +19,7 @@ export default defineConfig({
   resolve: {
     alias: {
       vue: "vue/dist/vue.esm-bundler.js",
+      "@": `${__dirname}/src`,
       "@js": `${__dirname}/src/javascripts`,
       "@css": `${__dirname}/src/styles`,
     },

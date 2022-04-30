@@ -14,11 +14,10 @@
     "skipLibCheck": true,
     "allowJs": true,
     "paths": {
+      "@": ["./src/*"],
       "@js/*": ["./src/javascripts/*"],
-      "@css/*": ["./src/styles/*"],
+      "@css/*": ["./src/styles/*"]
     }
   },
-  "exclude": [
-    "node_modules"
-  ]
+  "exclude": ["node_modules"]
 }

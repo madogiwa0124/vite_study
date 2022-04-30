@@ -29,7 +29,19 @@
         "@typescript-eslint/no-var-requires": "off",
         "@typescript-eslint/explicit-function-return-type": "off",
         "vue/singleline-html-element-content-newline": "off",
-        "vue/script-setup-uses-vars": "off"
+        "vue/script-setup-uses-vars": "off",
+        "vue/html-self-closing": "off",
+        "vue/max-attributes-per-line": [
+          "error",
+          {
+            "singleline": {
+              "max": 5
+            },
+            "multiline": {
+              "max": 1
+            }
+          }
+        ]
       }
     }
   ]
